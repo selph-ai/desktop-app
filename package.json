@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "npm install && npm run dev",
+    "tauri": "tauri",
+    "dev": "tauri dev"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.10"
+  }
+}
