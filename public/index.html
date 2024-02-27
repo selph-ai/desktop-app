@@ -7,5 +7,16 @@
     </head>
     <body>
         <h1>Selph.ai: Clone Yourselph from Tauri!</h1>
+        <script>
+            async function startup() {
+                const { invoke } = window.__TAURI__.tauri
+                const { message } = window.__TAURI__.dialog
+
+                const greetingResponse = await invoke("greet", { name: "Selph.ai" })
+                message(greetingResponse)
+            }
+
+            startup()
+        </script>
     </body>
 </html>

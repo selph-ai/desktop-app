@@ -11,7 +11,7 @@ Created using Tauri 1.60
 
 ### Running in development
 
-1. In the root project folder, execute `npm start`
+1. In the root project folder, execute `npm start`.
 
 ### Directory walkthrough
 
