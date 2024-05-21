@@ -8,6 +8,6 @@
     "@tauri-apps/cli": "^1.5.10"
   },
   "engines": {
-    "node": "20.11.1"
+    "node": "20.13.1"
   }
 }

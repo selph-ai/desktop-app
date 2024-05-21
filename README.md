@@ -6,12 +6,12 @@ Created using Tauri 1.60
 
 ### Installing Dependencies
 
-1. Recommend using [asdf-vm](https://asdf-vm.com/guide/getting-started.html) to manage Node version. The exact Node version required is specified in the `.tool-versions` file at the root of this repo.
-1. Have the [Tauri 1.60 dependencies](https://tauri.app/v1/guides/getting-started/prerequisites) installed for your platform.
+1. Use [asdf-vm](https://asdf-vm.com/guide/getting-started.html) to manage Node and Rust versions. The exact versions required is specified in the `.tool-versions` file at the root of this repo.
+1. `asdf install` to install all language dependencies.
 
 ### Running in development
 
-1. In the root project folder, execute `npm start`.
+1. In the root project folder, execute `npm start`. App window should appear after successfully installing and building all dependencies
 
 ### Directory walkthrough
 
